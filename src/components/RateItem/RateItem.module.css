@@ -1,0 +1,23 @@
+.row {
+  border: 1px solid var(--light-blue-color);
+
+  cursor: pointer;
+
+  transition: var(--transition);
+
+  &:hover {
+    background-color: var(--yellow-color);
+  }
+}
+
+.row td {
+  padding: 8px 24px;
+  width: 300px;
+
+  font-weight: 500;
+  text-align: left;
+  color: var(--gray-text-color);
+}
+.row td:last-of-type {
+  text-align: center;
+}

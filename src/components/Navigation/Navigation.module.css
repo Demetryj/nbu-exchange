@@ -1,0 +1,39 @@
+.navigation {
+  flex-grow: 1;
+}
+
+.navigationList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navigationLink {
+  position: relative;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  color: var(--white-text-color);
+
+  transition: var(--transition);
+
+  &:not(.active):hover {
+    color: var(--active--color);
+  }
+}
+
+.navigationLink.active {
+  color: var(--active--color);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -23px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--active--color);
+  }
+}

@@ -1,0 +1,9 @@
+.searchInput {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 8px;
+  width: 250px;
+
+  border-radius: 6px;
+  border: 1px solid var(--light-blue-color);
+}

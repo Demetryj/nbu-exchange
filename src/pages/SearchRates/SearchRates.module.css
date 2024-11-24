@@ -1,0 +1,10 @@
+.containerSearchRates {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerSearchRates input {
+  margin: 0;
+}

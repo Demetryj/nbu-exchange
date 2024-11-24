@@ -1,0 +1,18 @@
+.tableWrapper {
+  margin-bottom: 40px;
+  min-height: 370px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 60%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  & th {
+    padding: 8px 24px;
+
+    text-align: center;
+    border: 1px solid var(--light-blue-color);
+  }
+}
